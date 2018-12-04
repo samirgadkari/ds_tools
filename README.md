@@ -8,7 +8,7 @@ This program will:
   3. For each string value, calculate a regular expression that will
      match the whole string.  Group numbers and text/spaces,
      so we can retrieve those later.
-  4. Print those unique tree structures will actual tree data.
+  4. Print those unique tree structures with actual tree data.
      Next to each line print the regular expression we found for it.
   5. Extract the numbers in the values, and print them along with the key:
      ex. Afghanisthan,27755775,2002
