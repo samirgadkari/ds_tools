@@ -1,5 +1,13 @@
 # ds_tools
 ## Overview
+Suppose you have a list of HTML files in which you want to search for a parent node (say a table element). You also expect to find the same table structure under the table element for each HTML file, but you don't know for sure. You can use this script to look at all unique structures that are present under the parent node. This helps you when writing BeautifulSoup queries to extract information available deep under the parent's children.
+
+
+User specifies the HTML node element they want to look at.
+BeautifulSoup and Regular Expressions are used to extract the element from each HTML file.
+The tree structure of those elements are compared.
+Only unique tree structures are kept and displayed to the user with data from one tree.
+
 This program will:
   1. Read all files specified as the second parameter on the command line.
   2. Find unique tree structures of the specified parent.
